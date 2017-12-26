@@ -155,3 +155,58 @@ A deprecated integration in HTML is available for soft programmers. WE DO NOT RE
 .. raw:: html
 
    </div>
+
+
+.. raw:: html
+
+   <div class="col-md-8 col-sm-9">
+
+.. raw:: html
+
+   <div class="article-body">
+
+.. rubric:: Auth Request Parameters
+   :name: auth-request-parameters
+
+Here are the JSON parameters for generating Authorization.
+
++-----------------------------------+-----------------------------------+
+| **Param**                         | **Description**                   |
++-----------------------------------+-----------------------------------+
+| **accountNo**                     | Your Merchant Account Number.     |
+|                                   | This is not Merchant ID.          |
++-----------------------------------+-----------------------------------+
+| **memo**                          | The Title Of the Order. E.g       |
+|                                   | Payment for Shirt                 |
++-----------------------------------+-----------------------------------+
+| **reference**                     | This is required. A Reference     |
+|                                   | Number sent by the Merchant to    |
+|                                   | identify transaction              |
++-----------------------------------+-----------------------------------+
+| **amount**                        | The amount to be paid.            |
++-----------------------------------+-----------------------------------+
+| **currency**                      | payment currency -- should be     |
+|                                   | 3-letter ISO_4217                 |
++-----------------------------------+-----------------------------------+
+| **type**                          | The is usually 'sale'. However,   |
+|                                   | it can be AddFund or Subscription |
+|                                   | but be careful choosing this. Use |
+|                                   | Sale if you do not understand.    |
++-----------------------------------+-----------------------------------+
+| **return_url**                    | This is the URL the gateway       |
+|                                   | redirects to after payment.       |
+|                                   | Whether or not the payment was    |
+|                                   | successful                        |
++-----------------------------------+-----------------------------------+
+| **notify_url**                    | This is the URL where messages    |
+|                                   | will be sent instantly upon a     |
+|                                   | payment.                          |
++-----------------------------------+-----------------------------------+
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
