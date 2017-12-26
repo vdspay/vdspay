@@ -61,6 +61,32 @@ server via JSON API. The section below describes how to create this
 .. raw:: html
 
 
+<style>
+.st-alert {
+padding: 20px 30px;
+margin-bottom: 20px;
+ttext-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+background-color: #f3e077;
+position: relative;
+color: #484019;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+}
+
+.st-alert h4 {
+font-weight: bold;
+color: #333333;
+margin: 0px;
+}
+
+.st-alert-success {
+background-color: #DEF2B5;
+color: #445028;
+}
+</style>
+
+
    <div class="st-alert st-alert-success">
 
 
@@ -120,4 +146,8 @@ Result Format
 
    </div>
 
-.. _demo merchant details provided here: start-testing
+.. _demo merchant details provided here: #start-testing
+
+
+Authorization(Html)
+~~~~~~~~~~~~~~~~~~~~
