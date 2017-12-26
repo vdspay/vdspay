@@ -114,8 +114,8 @@ Result Format
       "message": "Authorization URL created",
       "data": {
         "authorization_url": "https://acs.vds.com.ng/vpc/0peioxfhpn",
-        "access_code": 
-
+        "access_code": "0peioxfhpn" } }
+		
 .. raw:: html
 
    </div>
