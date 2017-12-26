@@ -61,6 +61,7 @@ server via JSON API. The section below describes how to create this
 .. raw:: html
 
 
+
    <div class="st-alert st-alert-success">
 
 
@@ -125,3 +126,32 @@ Result Format
 
 Authorization(Html)
 ~~~~~~~~~~~~~~~~~~~~
+
+A deprecated integration in HTML is available for soft programmers. WE DO NOT RECOMMEND THIS! 
+
+
+.. raw:: html
+
+   <div class="terminal-wrap">
+
+::
+
+    <form class="form-horizontal" role="form" method="POST" action="https://acs.vds.com.ng/webscr/?cmd=_pay" target="_top">
+      <input type="text" name="customer_phone" value="2340000000000">
+      <input type="hidden" name="ref_code" value="0000000">
+      <input type="hidden" name="memo" value="Transaction Testing"/>
+      <input type="hidden" name="return_url" value="https://mywebsite.com">
+      <input type="hidden" name="tn_type" value="sale"> 
+      <input type="hidden" name="acct_number" value="00000">
+       <input type="hidden" name="amount" value="100.00">
+    <input type="hidden" class="form-control" name="customer" value="John Doe">
+          <input type="hidden" name="customer_email" value="shshs@ok.k">
+          <select name="currency">
+          <option value="NGN">NGN</option>
+          </select>
+          <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+.. raw:: html
+
+   </div>
